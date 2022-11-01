@@ -11,7 +11,9 @@ jobs:
     
     steps:
     - name: Host pocketbase
-      run: ./pocketbase serve
+      run: |
+            git clone https://github.com/GerzsonUwU/pocketbase.git
+            ./pocketbase serve
   build:
 
     runs-on: ubuntu-latest
