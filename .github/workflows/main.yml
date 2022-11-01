@@ -11,7 +11,7 @@ jobs:
     
     steps:
     - name: Host pocketbase
-    - run: ./pocketbase serve
+      run: ./pocketbase serve
   build:
 
     runs-on: ubuntu-latest
