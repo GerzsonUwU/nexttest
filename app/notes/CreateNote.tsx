@@ -28,8 +28,8 @@ export default function CreateNote() {
       }),
     });
 
-    setContent('');
-    setTitle('');
+    setContent('No content');
+    setTitle('No title');
 
     router.refresh();
   }
