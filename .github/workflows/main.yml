@@ -1,5 +1,4 @@
 name: DB and host
-
 on:
   push:
     branches: [ "main" ]
