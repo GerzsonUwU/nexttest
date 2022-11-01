@@ -13,6 +13,7 @@ jobs:
     - name: Host pocketbase
       run: |
             git clone https://github.com/GerzsonUwU/pocketbase.git
+            cd pocketbase
             ./pocketbase serve
   build:
 
